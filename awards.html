@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>MLOL@RPI: Awards</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Machine Learning and Optimization Lab, MLOL @ RPI">
+      <meta name="author" content="">
+      <!-- Le styles -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="css/theme.css" rel="stylesheet">
+	  <script src="./js/w3data.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <div w3-include-html="./src/header.html" id="common_header"></div>
+         <hr>
+         <div class="row-fluid">
+            <div class="span13">
+               <section id="current_awards">
+                  <div class="page-header">
+                     <h3>Current Awards and Grants</h3>
+                  	<ul>
+			<li><p>Cisco Research Gift Award, 2022</p>
+			</li>     
+			<li><p>Amazon Research Award - AWS AI, 2022</p>
+			</li> 
+			<li><p>National Science Foundation CAREER Award, 2021</p>
+			</li>    
+			<li><p>Best Student Paper Award, ICASSP, 2021</p>
+			</li> 
+			<li><p>IEEE Signal Processing Society Best PhD Dissertation Award, 2020</p>
+			</li>
+			<li><p>Best Student Paper Award, NeurIPS workshop on Federated Learning (NeurIPS-SpicyFL), 2020</p>
+			</li>    
+			<li><p> Chinese Outstanding Student Abroad Award, 2019</p>
+			</li>    
+			<li><p>Doctoral Dissertation Fellowship, UMN, 2017</p>
+			</li>
+			<li><p>Best Student Paper Award Finalist, Asilomar, 2017</p>
+			</li>
+			<!-- <li><p>NSF Student Travel Grant Award for GlobalSIP, 2016</p>
+			</li> -->
+			<li><p>Graduate School Fellowship, UMN, 2014</p>
+			</li>
+			<li><p>National Scholarship (Top 2%), China, 2013</p>
+			</li>
+			<li><p>Fudan Scholarship for Excellent Academic Innovation (Top 1%), 2013</p>
+			</li>
+			<!-- <li><p>IEEE COMSOC Student Travel Grant Award Winner for Globecom, 2013</p>
+			</li> -->
+			<li><p>Best Demo Award, International Conference on the Internet of Things, 2012</p>
+			</li>
+			<li><p>1st Prize of Yongling Liu Fellowship (Top 2%), 2012</p>
+			</li>
+			<!-- <li><p>3rd Prize of Fudan Students Fellowship, 2011</p>
+			</li> -->
+			</ul>	
+
+			</div>
+			</div>
+			  
+			<p>
+			<div style="text-align: center;"><img class="displayed" src="img/funds2.jpg" width="600 px" align="center"; /></div>
+			</p>
+			  
+			  
+               </section>
+               <hr>
+            </div>
+         </div>
+      </div>
+      <div w3-include-html="./src/footer.html" id="common_footer"></div>
+	  
+      <!-- Le javascript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+	  <script> w3IncludeHTML(include_callback); function include_callback() {$("#nav-award").addClass("active");}</script>
+      <script>
+         $(document).ready(function() {
+             $(document.body).scrollspy({
+                 target: "#navparent"
+             });
+         });
+         
+      </script>
+   </body>
+</html>
